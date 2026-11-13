@@ -10,9 +10,9 @@
 
   <p>English &nbsp;|&nbsp; <a href="README.ru.md">Русский</a></p>
 
-  <p><a href="https://github.com/karrrphoto-hub/DoF-Master/releases"><strong>App releases and APK</strong></a></p>
-  <p>Android 8.0+ &nbsp;·&nbsp; Version 1.0</p>
-  <p>Public APK downloads are being prepared. This page is available without signing in.</p>
+  <p><a href="https://github.com/karrrphoto-hub/DoF-Master/releases/download/v1.0.1/DoF-Master-1.0.1.apk"><strong>Download APK · DoF Master 1.0.1</strong></a></p>
+  <p>Android 8.0+ &nbsp;·&nbsp; Signed Release APK &nbsp;·&nbsp; No sign-in required</p>
+  <p><a href="https://github.com/karrrphoto-hub/DoF-Master/releases/tag/v1.0.1">Release notes and SHA-256 checksum</a></p>
 </div>
 
 ---
@@ -76,7 +76,13 @@ The app runs locally, with no advertising, analytics, accounts or telemetry. It 
 
 ## Installation
 
-The installer will be added under [Releases](https://github.com/karrrphoto-hub/DoF-Master/releases) after preparing the build for public distribution. Android 8.0 or newer is required.
+1. [Download the signed Release APK](https://github.com/karrrphoto-hub/DoF-Master/releases/download/v1.0.1/DoF-Master-1.0.1.apk) on your Android device.
+2. Open the downloaded file and, if prompted, allow your browser or file manager to install this app.
+3. Complete installation. Android 8.0 or newer is required.
+
+The [release page](https://github.com/karrrphoto-hub/DoF-Master/releases/tag/v1.0.1) includes a SHA-256 checksum for verifying the download.
+
+If you previously installed a private Debug build, this Release uses a different signing certificate and cannot update it in place. Keep the old installation if you need its saved profiles; uninstalling it can erase app data.
 
 ## About this repository
 

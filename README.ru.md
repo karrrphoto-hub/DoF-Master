@@ -10,9 +10,9 @@
 
   <p><a href="README.md">English</a> &nbsp;|&nbsp; Русский</p>
 
-  <p><a href="https://github.com/karrrphoto-hub/DoF-Master/releases"><strong>Версии приложения и APK</strong></a></p>
-  <p>Android 8.0+ &nbsp;·&nbsp; Версия 1.0</p>
-  <p>Публичная загрузка APK готовится. Страница доступна без входа в GitHub.</p>
+  <p><a href="https://github.com/karrrphoto-hub/DoF-Master/releases/download/v1.0.1/DoF-Master-1.0.1.apk"><strong>Скачать APK · DoF Master 1.0.1</strong></a></p>
+  <p>Android 8.0+ &nbsp;·&nbsp; Подписанная Release-сборка &nbsp;·&nbsp; Без входа в GitHub</p>
+  <p><a href="https://github.com/karrrphoto-hub/DoF-Master/releases/tag/v1.0.1">Описание релиза и контрольная сумма SHA-256</a></p>
 </div>
 
 ---
@@ -76,7 +76,13 @@ DoF Master помогает оценить, какая часть сцены б�
 
 ## Установка
 
-Установочный файл будет добавлен в раздел [Releases](https://github.com/karrrphoto-hub/DoF-Master/releases) после подготовки сборки для публичного распространения. Требуется Android 8.0 или новее.
+1. [Скачайте подписанный Release APK](https://github.com/karrrphoto-hub/DoF-Master/releases/download/v1.0.1/DoF-Master-1.0.1.apk) на смартфон.
+2. Откройте файл и при необходимости разрешите браузеру или файловому менеджеру установку приложения.
+3. Завершите установку. Требуется Android 8.0 или новее.
+
+На [странице релиза](https://github.com/karrrphoto-hub/DoF-Master/releases/tag/v1.0.1) доступна контрольная сумма SHA-256 для проверки загрузки.
+
+Если ранее была установлена приватная Debug-сборка, Release имеет другую подпись и не обновит её поверх. Сохраните прежнюю установку, если нужны её профили: удаление приложения может стереть данные.
 
 ## О репозитории
 
