@@ -1,90 +1,90 @@
 <div align="center">
-  <img src="docs/images/app-icon.svg" width="112" height="112" alt="Иконка DoF Master">
+  <img src="docs/images/app-icon.svg" width="112" height="112" alt="DoF Master app icon">
 
   <h1>DoF Master</h1>
 
-  <p><strong>Глубина резкости и гиперфокал — всегда под рукой.</strong></p>
-  <p>Для фотографии и видео. Без интернета.</p>
+  <p><strong>Depth of field and hyperfocal distance, wherever you shoot.</strong></p>
+  <p>For photography and video. No internet required.</p>
 
-  <p><strong>Android 8.0+</strong> &nbsp;·&nbsp; <strong>Полностью офлайн</strong> &nbsp;·&nbsp; <strong>Русский / English</strong></p>
+  <p><strong>Android 8.0+</strong> &nbsp;·&nbsp; <strong>Fully offline</strong> &nbsp;·&nbsp; <strong>English / Русский</strong></p>
 
-  <p>Русский &nbsp;|&nbsp; <a href="README.en.md">English</a></p>
+  <p>English &nbsp;|&nbsp; <a href="README.ru.md">Русский</a></p>
 
-  <p><a href="https://github.com/karrrphoto-hub/DoF-Master/releases"><strong>Версии приложения и APK</strong></a></p>
-  <p>Android 8.0+ &nbsp;·&nbsp; Версия 1.0</p>
-  <p>Публичная загрузка APK готовится. Страница доступна без входа в GitHub.</p>
+  <p><a href="https://github.com/karrrphoto-hub/DoF-Master/releases"><strong>App releases and APK</strong></a></p>
+  <p>Android 8.0+ &nbsp;·&nbsp; Version 1.0</p>
+  <p>Public APK downloads are being prepared. This page is available without signing in.</p>
 </div>
 
 ---
 
-DoF Master помогает оценить, какая часть сцены будет выглядеть резкой. Выберите камеру, фокусное расстояние, диафрагму и дистанцию — приложение покажет ближнюю и дальнюю границы глубины резкости, её общую величину и наглядную схему.
+DoF Master helps you estimate how much of a scene will appear sharp. Choose your camera, focal length, aperture and focus distance to see the near and far depth of field limits, total depth of field and a visual diagram.
 
-Для пейзажа переключитесь на гиперфокал: приложение подскажет дистанцию фокусировки, при которой дальняя граница глубины резкости уходит в бесконечность.
+For landscapes, switch to hyperfocal mode to find the focus distance that extends the far depth of field limit to infinity.
 
 <table>
   <tr>
-    <th>Глубина резкости</th>
-    <th>Гиперфокал</th>
-    <th>Критерий резкости</th>
+    <th>Depth of field</th>
+    <th>Hyperfocal distance</th>
+    <th>Sharpness criterion</th>
   </tr>
   <tr>
-    <td><a href="docs/images/dof-en.svg"><img src="docs/images/dof-en.svg" width="240" alt="Расчёт глубины резкости: камера, параметры съёмки и результаты"></a></td>
-    <td><a href="docs/images/hyperfocal-en.svg"><img src="docs/images/hyperfocal-en.svg" width="240" alt="Гиперфокальная дистанция и границы глубины резкости"></a></td>
-    <td><a href="docs/images/sharpness-en.svg"><img src="docs/images/sharpness-en.svg" width="240" alt="Шесть критериев резкости и пояснение выбранного критерия"></a></td>
+    <td><a href="docs/images/dof-en.svg"><img src="docs/images/dof-en.svg" width="240" alt="Depth of field calculator with camera, exposure inputs and results"></a></td>
+    <td><a href="docs/images/hyperfocal-en.svg"><img src="docs/images/hyperfocal-en.svg" width="240" alt="Hyperfocal distance and near and far depth of field limits"></a></td>
+    <td><a href="docs/images/sharpness-en.svg"><img src="docs/images/sharpness-en.svg" width="240" alt="Six sharpness criteria with an explanation of the selected criterion"></a></td>
   </tr>
 </table>
 
-*Реальные экраны приложения. На скриншотах выбран английский язык; интерфейс также доступен на русском.*
+*Actual app screenshots. Both English and Russian interfaces are available.*
 
-## Возможности
+## Features
 
-- **ГРИП и гиперфокал.** Ближняя и дальняя границы, общая глубина резкости и схема расположения объекта.
-- **Удобная дистанция.** Адаптивный слайдер, ручной ввод и отдельное положение оптической бесконечности.
-- **Свои камеры и объективы.** Пользовательские профили с физическими размерами кадра и комплектами фикс- и зум-объективов.
-- **Быстрый ввод по комплекту оптики.** Все объективы пользовательской камеры формируют общий набор фокусных и диафрагм. Нестандартные значения сохраняются; ручной ввод доступен всегда.
-- **Подсказки без ограничений.** Независимые сообщения о дифракции и близкой дистанции объясняют особенности расчёта, не меняя параметры съёмки.
-- **Настройка под себя.** Русский и английский языки, светлая, тёмная и системная темы, единицы измерения и отображение чисел.
+- **Depth of field and hyperfocal distance.** Near and far limits, total depth of field and a diagram of the scene.
+- **Flexible distance input.** An adaptive slider, manual entry and an explicit optical infinity setting.
+- **Your cameras and lenses.** Custom camera profiles with physical frame dimensions and kits of prime and zoom lenses.
+- **Quick values from your kit.** All lenses attached to a custom camera contribute focal length and aperture presets. Unusual values are preserved, and manual input is always available.
+- **Information without restrictions.** Independent diffraction and close focus messages explain calculation limits without changing your shooting parameters.
+- **Make it yours.** English and Russian, light, dark and system themes, measurement units and number formatting options.
 
-## Резкость под вашу задачу
+## Sharpness for your output
 
-То, насколько заметно размытие, зависит от того, как рассматривают изображение. В DoF Master можно выбрать подходящий критерий:
+Visible blur depends on how an image is viewed. DoF Master offers six criteria:
 
-| Критерий | Для чего |
+| Criterion | Purpose |
 | --- | --- |
-| **Standard** | Обычный просмотр фотографии. Использует значение формата из каталога, а при его отсутствии — расчёт по диагонали физического кадра. |
-| **Pixel-Based** | Оценка при увеличении цифрового изображения с учётом разрешения сенсора. |
-| **Video-Based** | Расчёт с учётом разрешения записываемого видео. |
-| **Print-Based** | Печать с выбранными размером и условиями просмотра. |
-| **Screen-Based** | Просмотр изображения на выбранном экране. |
-| **Custom** | Ручное задание кружка рассеяния (CoC, Circle of Confusion). |
+| **Standard** | Normal photo viewing. Uses the format's catalogue value, or a calculation based on the physical frame diagonal when no value is defined. |
+| **Pixel-Based** | Assessing an enlarged digital image using sensor resolution. |
+| **Video-Based** | Depth of field based on recorded video resolution. |
+| **Print-Based** | A chosen print size and viewing conditions. |
+| **Screen-Based** | Viewing an image on a chosen display. |
+| **Custom** | Setting the Circle of Confusion (CoC) manually. |
 
-Для Standard без каталожного значения используется традиционный фотографический ориентир: 36×24 мм и кружок рассеяния 0,030 мм, пропорционально диагонали кадра. Явно заданные значения встроенных форматов имеют приоритет.
+When Standard has no catalogue value, it uses the traditional photographic reference of a 36×24 mm frame with a 0.030 mm Circle of Confusion, scaled by the frame diagonal. Explicit built-in catalogue values take priority.
 
-Расчёты помогают планировать съёмку, но не гарантируют одинаковую детализацию у всех реальных объективов. На близких дистанциях допущения оптической модели могут заметнее расходиться с их характеристиками. Информационные подсказки поясняют эти ограничения, сохраняя доступ ко всем результатам.
+Calculations help plan a shot; they do not guarantee identical detail from every real lens. At close distances, simplified optical assumptions can differ more noticeably from a lens's actual behaviour. Informational messages explain these limits while keeping all results available.
 
-## Камеры и быстрые значения
+## Cameras and quick values
 
-Создайте собственный профиль камеры и добавьте свою оптику. Например, комплект **24–120 мм f/4 + 50 мм f/1.4 + 200 мм f/4** даёт удобные кнопки по всему набору — выбирать активный объектив не требуется.
+Create a custom camera profile and add your lenses. A kit such as **24–120 mm f/4 + 50 mm f/1.4 + 200 mm f/4** produces useful presets across the whole set. There is no active lens to select.
 
-Для зумов используются стандартные фокусные внутри каждого диапазона и его точные границы. Фикс 58 мм или зум 48–217 мм сохраняют собственные значения. Кнопки диафрагм учитывают светосилу и указанные пределы всего комплекта.
+Zooms contribute standard focal lengths within each individual range and their exact endpoints. A 58 mm prime or a 48–217 mm zoom keeps its own values. Aperture presets account for the maximum apertures and specified minimum apertures across the kit.
 
-Переключатели **«Показывать все фокусные»** и **«Показывать все диафрагмы»** работают независимо. Даже при ограниченном быстром наборе можно ввести любое допустимое значение вручную.
+**Show All Focal Lengths** and **Show All Apertures** work independently. A filtered preset list never prevents you from entering another valid value manually.
 
-## Без интернета
+## Offline by design
 
-Приложение работает локально. В нём нет рекламы, аналитики, учётных записей или телеметрии; разрешение на доступ к интернету не запрашивается. Профили и настройки сохраняются на устройстве.
+The app runs locally, with no advertising, analytics, accounts or telemetry. It does not request internet permission. Profiles and preferences are stored on the device.
 
-## Установка
+## Installation
 
-Установочный файл будет добавлен в раздел [Releases](https://github.com/karrrphoto-hub/DoF-Master/releases) после подготовки сборки для публичного распространения. Требуется Android 8.0 или новее.
+The installer will be added under [Releases](https://github.com/karrrphoto-hub/DoF-Master/releases) after preparing the build for public distribution. Android 8.0 or newer is required.
 
-## О репозитории
+## About this repository
 
-Здесь находятся описание приложения, иконка, скриншоты и установочные файлы в Releases. Исходный код приложения в этот репозиторий не включён.
+This repository contains the app description, icon, screenshots and downloadable installation files under Releases. The app's source code is not included here.
 
 ---
 
 <div align="center">
   <strong>DoF Master</strong><br>
-  Планируйте глубину резкости. Сохраняйте свободу выбора.
+  Plan your depth of field. Keep your creative choices.
 </div>
