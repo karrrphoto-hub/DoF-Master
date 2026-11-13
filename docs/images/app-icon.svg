@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 108 108">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0D192F"/>
+      <stop offset="1" stop-color="#172E4B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".65" cy=".27" r=".74">
+      <stop offset="0" stop-color="#325C78" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#325C78" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="icon-background">
+    <path fill="url(#background)" d="M0 0h108v108H0z"/>
+    <path fill="url(#glow)" d="M0 0h108v108H0z"/>
+  </g>
+  <g id="icon-foreground" stroke-linecap="round" stroke-linejoin="round">
+    <g id="camera" stroke="#F3FAFF" stroke-width="2.55">
+      <path fill="#1A3553" d="M 43 42 H 49 L 53 39 H 76 L 81 37 H 87 Q 90 37 90 40 V 62 Q 90 65 87 65 H 81 L 76 63 H 53 L 49 60 H 43 Z"/>
+      <path fill="#335C79" stroke="none" d="M 57 41 H 70 V 47 H 57 Z"/>
+      <path fill="none" d="M 55 39 V 63 M 72 39 V 63 M 81 37 V 65"/>
+      <path fill="#162C49" d="M 21 34 H 23 L 25 27 Q 26 24 30 24 H 34 Q 42 24 47 28 Q 48 29 48 31 V 34 Q 48 36 45 37 L 42 39 Q 48 41 48 46 L 46.5 51 Q 45 55 46 59 V 63 Q 46 67 42 67 H 22 Q 17 67 17 62 V 40 Q 17 35 21 34 Z"/>
+      <path fill="none" stroke="#88A8C6" stroke-width="2.3" d="M 23.5 47 V 59 M 29 32 Q 34 30 40 32"/>
+    </g>
+    <g id="depth-of-field-scale" fill="none" stroke-width="2.2">
+      <path d="M 22 79 H 86 M 22 76 V 82 M 33 77 V 82 M 75 77 V 82 M 86 76 V 82" stroke="#86AAC5"/>
+      <path d="M 43 79 H 65" stroke="#4EDFD8" stroke-width="6.3"/>
+      <path d="M 43 74 V 84 M 65 74 V 84" stroke="#4EDFD8"/>
+      <path d="M 54 74 V 84" stroke="#F3FAFF"/>
+    </g>
+  </g>
+
+</svg>
